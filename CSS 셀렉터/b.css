@@ -1,0 +1,24 @@
+/* body tag */
+body {
+    font-family: "NanumGothic";
+}
+
+/* male class */
+.male {
+    color:#007bff;
+}
+
+/* female class */
+.female {
+    color: #e43681;
+}
+
+/* all ul tag */
+ul {
+    list-style: none;
+}
+
+/* ceo id */
+#ceo {
+    
+}
