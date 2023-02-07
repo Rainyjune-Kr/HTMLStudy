@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>입력 폼 만들기.</title>
+</head>
+<body>
+    <h1>입사 지원서</h1>
+
+    <h2>필수 정보</h2>
+    
+    <!-- div : Tag를 블록화 한다. -->
+    <div>
+        <label>이름</label>
+        <!-- text type -->
+        <input type="text"/>
+    </div>
+    
+    <div>
+        <label>생년월일</label>
+        <!-- date type -->
+        <input type="date"/>
+    </div>
+    
+    <div>
+        <label>성별</label>
+        <!-- select (combo box) type -->
+        <select>
+            <option>남</option>
+            <option>여</option>
+        </select>
+    </div>  
+    
+    <h2>개발자는 왜?</h2>
+    <textarea></textarea>
+
+    <h2>사용해본 것들?</h2>
+    <!-- check box type -->
+    <div><input type="checkbox"/><label>Java</label></div>
+    <div><input type="checkbox"/><label>C 언어</label></div>
+    <div><input type="checkbox"/><label>HTML/CSS</label></div>
+    <div><input type="checkbox"/><label>파이썬</label></div>
+    <div><input type="checkbox"/><label>SQL</label></div>   
+
+    <h2>희망 부서</h2>
+    <!-- radio button type -->
+    <input type="radio" name="team"/><label>프론트엔드</label>
+    <input type="radio" name="team"/><label>백엔드</label>
+    <input type="radio" name="team"/><label>데이터베이스</label>
+</body>
+</html>
