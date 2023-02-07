@@ -1,0 +1,22 @@
+/* 셀렉터 - 꾸며줄 대상을 선택한다. */
+
+/* Tag Selector */
+body {
+    font-family: "Nanum Gothic";
+}
+
+/* Class Selector */
+.main {
+    color: #e43681;
+}
+
+.sub {
+    color: #006bc0;
+}
+
+/* ID Selector */
+#useless {
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
