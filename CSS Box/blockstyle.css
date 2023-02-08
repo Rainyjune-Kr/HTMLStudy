@@ -1,0 +1,18 @@
+/* Block element */
+div{
+    width: 10px;
+    height:10px;
+    background-color: #006bc0;
+
+    margin: 5px;
+    padding: 10px;
+}
+
+/* Inline element */
+span{
+    width: 1000px; /* width, height가 적용되지 않음 */
+    height: 1000px;
+    background-color: #dc3546;
+
+    padding: 10px; /* padding은 적용됨. 내용물이 늘어나는 것 */
+}
